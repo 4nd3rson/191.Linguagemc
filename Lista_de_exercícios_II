@@ -49,7 +49,6 @@ int media(void){
 
     if(((0 > n1) || (n1 > 10)) || ((0 > n2) || (n2 > 10))){
         printf("NOTA INVALIDA!\n");
-        return 0;
     }else{
         printf("MEDIA: %.2f\n", (n1+n2)/2);
     }
